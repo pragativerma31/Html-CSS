@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: auto;
+    height: auto;
+    background-color: #FFF2E1;
+    overflow-x: none;
+}
+.navcontainer{
+    background-color: #1A4D2E;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+#navbuttons{
+    align-self: center;
+}
+
+#navigation{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+#cookbook{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    color: #FFF2E1;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #1A4D2E;
+}
+#home{
+    border: solid 2px #FFF2E1;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #FFF2E1;
+    margin: 10px;
+}
+#about{
+    border: solid 2px #FFF2E1;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #FFF2E1;
+    margin: 10px;
+}
+#contact{
+    border: solid 2px #FFF2E1;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #FFF2E1;
+    margin: 10px;
+}
+#list2{
+    align-self: center;
+    display: flex;
+    gap: 40px;
+    padding: 5px;
+}
+.footerbox{
+    background-color: #1A4D2E;
+    width: 100%;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.footerbox p{
+    color: #FFF2E1;
+}
+.contentbox{
+    width: 65%;
+    height: 2620px;
+    margin: auto; /*to center the box */ 
+    border: 5px solid #4F6F52;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow-x: none;
+}
+.salad{
+    width: 90%;
+    max-height: 350px;
+    height: auto;
+    border: 2px solid #B99470;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+.item{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.recipebox{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 10px;
+}
+#heading{
+    align-self:last baseline;
+}
+
+
